@@ -1,8 +1,9 @@
 import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 import google.generativeai as genai
 import os
+Google_API = AIzaSyC5Re-UGsf-GtDIOxjS0k8t9JrTPGZ0LHM
 genai.configure(api_key=os.getenv('Google_API'))
 
 ### to run this model you need to haye these libraries installed in your system - 
