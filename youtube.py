@@ -3,7 +3,7 @@ import streamlit as st
 #load_dotenv()
 import google.generativeai as genai
 import os
-Google_API = AIzaSyC5Re-UGsf-GtDIOxjS0k8t9JrTPGZ0LHM
+Google_API = 'add your own API key'
 genai.configure(api_key=os.getenv('Google_API'))
 
 ### to run this model you need to haye these libraries installed in your system - 
@@ -55,7 +55,7 @@ if youtube_link:
     video_id = youtube_link.split('=')[1]
     st.image(f"http://img.youtube.com/vi/{video_id}/0.jpg", use_column_width=True)
 
-# Generate notes
+
 if st.button('Get notes'):
     transcript_text = extract_transcript(youtube_link)
     if transcript_text:
@@ -63,7 +63,7 @@ if st.button('Get notes'):
         st.markdown("## Detailed Notes:")
         st.write(summery)
 
-# Show download buttons only when content is available
+
 if summery is not None:
     st.download_button("Download Summary", summery, file_name="summary.txt", mime="text/plain")
 
