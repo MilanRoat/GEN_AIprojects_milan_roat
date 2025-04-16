@@ -1,6 +1,6 @@
 # GEN_AIprojects_milan_roat
 this repository contains GEN_AI based Projects (BY MILAN ROAT)
-### Planto.AI Vs Code Extension (using Langchain) 
+## Planto.AI Vs Code Extension (using Langchain) 
 planto.extension
 this file contains original files created by - Milan Roat for a vs-code extension (by command name - 'Get Suggestion')
 API Key used - GROQ API (the API key in extension.ts is empty for now . use your own key to get results) Model used - llama3-8b-8192
@@ -14,7 +14,7 @@ Features -
 the added screenshots below are while using this copilot for a selected code 
 
 
-### Retail Multi-Agent AI System using LangGraph & LLMs
+## Retail Multi-Agent AI System using LangGraph & LLMs
 A modular, multi-agentic AI system designed to optimize demand forecasting, inventory planning, dynamic pricing, and supply chain management in retail — built with LangGraph and enhanced with traditional ML + LLM reasoning.
 [CustomerAgent]
     ⬇️ Forecasts demand using past data + business features
